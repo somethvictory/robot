@@ -5,7 +5,7 @@ module Directions
   class North
     def move(current_position)
       x = current_position[0]
-      y = current_position[0]
+      y = current_position[1]
       y += 1 if y < 4
 
       [x, y]
